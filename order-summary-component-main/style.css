@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%); 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    overflow: hidden;
+
+
+}
+
+.hero img {
+    width: 100%;
+    /*border-radius: 15px 15px 0 0;*/
+    
+}
+
+
+.upper-text h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-top: 30px;
+}
+
+.upper-text p {
+    text-align: center;
+    font-size: 0.8em;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+    margin: 0 60px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.flex .left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    width: 100%;
+    padding-right: 30px;
+    
+
+}
+
+.left img {
+    width: 55px;
+    padding-right: 15px;
+}
+
+.left p {
+    font-size: .8em;
+    color: hsl(224, 23%, 55%);
+}
+
+.flex a {
+   font-size: 0.8em;
+   padding-left: 80px;
+}
+
+.flex a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+ }
+
+ .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 15px;
+ }
+
+ .proceed {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    padding: 0.4em;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+ }
+
+ .proceed:hover {
+    background-color: hsl(224, 23%, 55%);
+ }
+
+ .cancel {
+    background: none;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 700;
+    width: 100%;
+    padding: 0.4em;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ .cancel:hover {
+    color: black; 
+ }
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
