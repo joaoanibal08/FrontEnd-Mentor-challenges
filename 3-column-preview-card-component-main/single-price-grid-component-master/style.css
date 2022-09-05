@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+   
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    overflow: hidden;
+
+    
+}
+
+.community {
+    grid-column: 1/-1; 
+    background-color: white;
+   
+}
+
+.community h1 {
+    font-size: 1.4em;
+    color: rgb(87, 87, 87);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.community h2 {
+    font-size: 1.1em;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: hsl(71, 73%, 54%);
+} 
+
+.community-text {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: 40px;
+    color: lightslategray;
+    line-height: 1.6; 
+    
+}
+
+.subscription {
+    background-color: hsla(199, 92%, 34%, 0.986);
+}
+
+.subscription-title {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+
+.subscription-subtitle {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: rgba(229, 239, 245, 0.226);
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.subscription-subtitle span.price {
+    font-size: 2em;
+    color: white;
+    padding: 0; 
+}
+
+.subscription-subtitle span {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    padding-left: 10px;
+}
+
+.subscription-text {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: white;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.subscription-button {
+    display: block;
+   /* padding-left: 30px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(95, 255, 2);
+    border-radius: 5px;
+    margin: 20px 30px;
+      
+}
+
+.subscription a {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+.why {
+    background-color: hsla(177, 71%, 44%, 0.986);
+}
+
+.why h1 {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+.why ul {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 1.6;
+    
+}
+
+.why li {
+    color: #fff;
+    font-size: 0.8em;
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        min-height: 100vh;
+        width: 80%;
+        margin: 0 auto;
+       
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}
+
+    
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
